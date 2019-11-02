@@ -9,6 +9,9 @@
     IDE0060 Remove unused parameter 'name' if it is not part of a shipped public API
     IDE1006 Naming rule violation: These words must begin with upper case characters
     -->
+    <NoWarn>$(NoWarn);CS0067</NoWarn>
+    <LangVersion>latest</LangVersion>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
 
   <ItemGroup>
